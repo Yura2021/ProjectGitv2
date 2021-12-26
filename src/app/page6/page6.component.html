@@ -1,0 +1,6 @@
+<div class="container-fluid">
+  <div class="imgBackground"></div>
+  <div class="title"  [@animationCircle]></div>
+  <div class="crosses" [@crosses]="state" (@crosses.done)="onEnd($event)"></div>
+  <div class="circle" [@circle]="state" (@circle.done)="onEnd($event)"></div>
+</div>

@@ -1,0 +1,14 @@
+<div class="container-fluid">
+  <div class="imgBackground"></div>
+  <div class="title"  [@animationCircle]></div>
+  <div class="crosses" [@crosses]="state" (@crosses.done)="onEnd($event)"></div>
+  <div class="circle" [@circle]="state" (@circle.done)="onEnd($event)"></div>
+</div>
+
+<!--  <div class="container-fluid">
+  <img src="../../assets/Page1_New/background-image-main.png" class="imgBackground img-fluid" alt="Responsive image">
+  <div class="title" [@animationCircle]></div>
+  <div class="crosses" [@animationCircle]></div>
+  <div class="circle" [@animationCircle]></div>
+</div> -->
+
